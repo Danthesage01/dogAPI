@@ -1,0 +1,16 @@
+Build a dog website that gets images and other information from an API
+
+Features
+1. Pagination
+2. Dark Mode
+3. Top Scroll
+4. Navigate to single Dog Page
+5. filter with search
+
+
+Technology
+1. JavaScript ES6
+2. AJAX / HTTP Request
+3. Locastorage
+4. Import & Export Model
+
