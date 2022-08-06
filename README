@@ -1,11 +1,12 @@
+#Demo Link : https://dogssapi.netlify.app/
+
 Build a dog website that gets images and other information from an API
 
 Features
 1. Pagination
 2. Dark Mode
 3. Top Scroll
-4. Navigate to single Dog Page
-5. filter with search
+
 
 
 Technology
