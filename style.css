@@ -540,7 +540,7 @@ font-weight: bold;
   border-color: transparent;
   border-radius: 5px;
   cursor: pointer;
-  margin: 0.5rem;
+  margin: 0.6rem;
   transition: var(--transition);
 }
 .header .page-header{
