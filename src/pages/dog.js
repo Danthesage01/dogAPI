@@ -18,7 +18,8 @@ window.addEventListener("DOMContentLoaded", async()=>{
   const param = new URLSearchParams(paramID)
   const id = param.get("id")
 
-  const SUrlWithKEy = `https://api.thedogapi.com/v1/breeds/${id}?api_key=55c5f676-1493-44f7-ad67-0b870beba21e`
+  // const SUrlWithKEy = `https://api.thedogapi.com/v1/breeds/${id}?api_key=55c5f676-1493-44f7-ad67-0b870beba21e`
+  const SUrlWithKEy = `https://api.thedogapi.com/v1/breeds/${id}?api_key=live_v2KEMvu1br7NSCNSVo6gxNToDniBMahHC7ZsEJevhxj1qRbuJKm6rBqBCIoxfe9J/`
   try {
     const res = await fetch(SUrlWithKEy)
     if (res.ok === true && res.status === 200) {

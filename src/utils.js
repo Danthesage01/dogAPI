@@ -1,9 +1,8 @@
-const URL = "https://api.thedogapi.com/v1/breeds"
+// const URL = "https://api.thedogapi.com/v1/breeds"
 
-const APIKey = "api_key=55c5f676-1493-44f7-ad67-0b870beba21e"
+// const APIKey = "api_key=55c5f676-1493-44f7-ad67-0b870beba21e"
+const AUrlWithKey = `https://api.thedogapi.com/v1/breeds/`
 
-const AUrlWithKey = "https://api.thedogapi.com/v1/breeds?api_key=55c5f676-1493-44f7-ad67-0b870beba21e/"
-const SUrlWithKEy = `https://api.thedogapi.com/v1/breeds/1?api_key=55c5f676-1493-44f7-ad67-0b870beba21e`
 
 // Custom getElement
 const getElement = (selection) => {
