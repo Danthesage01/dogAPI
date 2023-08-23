@@ -4,7 +4,7 @@ const productContainer = getElement(".products-container")
 const display = (dogs)=>{
 productContainer.innerHTML = dogs.map(dog=>{
   const { id,  name } = dog
-  const { url:image } = dog.image
+  const { url:image } = dog?.image
   return `<article class="product">
         <div class="product-container">
           <img src="${image}" class="product-img img" alt="${name}">
